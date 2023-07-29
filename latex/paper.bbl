@@ -53,4 +53,7 @@ S.~K. "Priyanka~Shende", "Mahesh~Pawar", ``A brief review on: Mri images reconst
 \bibitem{oulbacha2020mri}
 R.~Oulbacha and S.~Kadoury, ``Mri to ct synthesis of the lumbar spine from a pseudo-3d cycle gan,'' in \emph{2020 IEEE 17th international symposium on biomedical imaging (ISBI)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 1784--1787.
 
+\bibitem{opfer2023automatic}
+R.~Opfer, J.~Kr{\"u}ger, L.~Spies, A.-C. Ostwaldt, H.~H. Kitzler, S.~Schippling, and R.~Buchert, ``Automatic segmentation of the thalamus using a massively trained 3d convolutional neural network: higher sensitivity for the detection of reduced thalamus volume by improved inter-scanner stability,'' \emph{European Radiology}, vol.~33, no.~3, pp. 1852--1861, 2023.
+
 \end{thebibliography}
