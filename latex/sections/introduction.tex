@@ -1,0 +1,30 @@
+Medical imaging, particularly Magnetic Resonance Imaging (MRI), has revolutionized modern healthcare by providing non-invasive and detailed insights into the human body's internal structures. In Uganda, as in many other regions around the world, MRI scans have become an indispensable tool for diagnosis, treatment planning, and monitoring of various medical conditions. The application of Deep Neural Networks (DNNs) in medical image analysis has shown immense potential to enhance diagnostic accuracy, automate image interpretation, and assist healthcare professionals in making well-informed decisions.
+
+However, the efficacy of DNNs heavily relies on the availability of large and diverse datasets for training.\cite{ahishakiye2021survey} In the context of medical imaging in Uganda, researchers face a formidable challenge due to the scarcity of locally available MRI datasets. As a result, training DNNs using limited local data may lead to suboptimal model performance, reducing the potential benefits of this cutting-edge technology for Ugandan healthcare.
+
+To overcome the data scarcity issue and enable the development of robust DNN models for MRI image analysis in Uganda, this paper explores an innovative approach involving Denoising Diffusion Probabilistic Models.\cite{ho2020denoising} Denoising Diffusion Models have emerged as a promising technique in the field of generative modeling, capable of learning high-dimensional probability distributions from noisy data. The primary objective of this review is to investigate how these models can be harnessed to create synthetic MRI datasets that effectively augment the limited local data.
+
+Motivation for Research:
+The motivation behind this study stems from the pressing need to improve the accuracy and reliability of medical image analysis in Uganda. Medical professionals in the country encounter unique challenges due to a diverse range of medical conditions, limited medicaal personel and limited resources.According to~\cite{kawooya2012assessing} Clinicians perform well at imaging requisition-decisions but there are issues in imaging requisitioning and reporting that need to be addressed to improve performance. Developing DNN models that can aid in the early detection and precise characterization of diseases has the potential to revolutionize healthcare delivery and significantly impact patient outcomes.
+
+The Challenge of Limited Local Data:
+The shortage of MRI data in Uganda poses a significant obstacle in training sophisticated DNN models. The traditional approach of collecting large-scale datasets from local sources may not be practical, given the time, cost, and resource constraints. Additionally, the data collected locally may not sufficiently capture the full spectrum of medical conditions and anatomical variations present in Uganda's population.
+
+The Potential of Denoising Diffusion Models:
+Denoising Diffusion Models offer a promising avenue to address the data scarcity challenge. According to~\cite{rombach2022high},these models have very high accuracy with less computational resources compared to other image genarating models. By learning the underlying probability distribution of the available data, these models can generate synthetic samples that resemble real MRI scans. By leveraging Denoising Diffusion Models, researchers can effectively expand the dataset size, increase data diversity, and improve the representation of the unique characteristics seen in Ugandan MRI scans.
+
+Research Objectives:
+The primary objective of this review is to assess the feasibility and effectiveness of utilizing Denoising Diffusion Models for creating synthetic MRI datasets in Uganda. Specific research objectives include:
+\begin{itemize}
+    \item Investigating the state-of-the-art techniques in denoising diffusion models and generative adversarial nueral networks for medical image data synthesis.
+    \item Exploring the potential advantages and limitations of augmented datasets generated through denoising diffusion models.
+    \item Evaluating the performance of DNNs trained on augmented datasets compared to those trained on limited local data alone.
+    \item Analyzing the impact of augmented data on DNN model generalization and robustness for medical image analysis tasks.
+\end{itemize}
+By achieving these objectives, this review aims to contribute valuable insights that will pave the way for enhanced medical image analysis and improved healthcare practices in Uganda.
+
+In the subsequent sections, we delve into the background of medical image dataset creation, review relevant literature on denoising diffusion models and MRI image analysis, detail the methodology employed for synthetic dataset generation, present the results of our research, draw meaningful conclusions, and identify potential areas for further research.
+
+
+
+
